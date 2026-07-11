@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudassar | AI & Full Stack Developer</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Professional portfolio of Muhammad Mudassar - CS student at Riphah International University. Specializing in Web Development, AI Automation, and Software Engineering.">
+    <meta name="keywords" content="Muhammad Mudassar, AI Solutions, Full Stack Developer, Riphah University, Web Development, Google Veo, ElevenLabs">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Shifting Holographic Background Gradient -->
+    <div class="holographic-bg"></div>
+
+    <!-- Navigation Header -->
+    <header class="main-header">
+        <div class="nav-container">
+            <div class="profile-title-group">
+                <div class="header-avatar-circle">
+                    <img src="profile.jpg" alt="Muhammad Mudassar Profile Avatar">
+                </div>
+                <div class="profile-name-sub">
+                    <span class="profile-name">mudassar.dev</span>
+                    <span class="profile-role">AI SOLUTIONS & FULL STACK DEV</span>
+                </div>
+            </div>
+            
+            <div class="nav-actions">
+                <nav class="capsule-nav">
+                    <a href="#dashboard" class="nav-btn active">Dashboard</a>
+                    <a href="#labs" class="nav-btn">AI Labs</a>
+                    <a href="#deep-dive" class="nav-btn">Case Studies</a>
+                    <a href="#ai-agent" class="nav-btn">Ask AI</a>
+                    <a href="#contact" class="nav-btn">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="portfolio-container" id="dashboard">
+        
+        <!-- SECTION 1: HERO BENTO DASHBOARD -->
+        <section class="section-wrapper">
+            <div class="bento-grid">
+                
+                <!-- 1. ACADEMIC & AI RESEARCH CELL (Top Left: Spans 2 cols, tall) -->
+                <div class="bento-cell cell-ai-research grid-col-2 scroll-reveal" title="Click network to burst signal pulses!">
+                    <div class="cell-top">
+                        <div class="cell-header-with-action">
+                            <h2 class="cell-title">AI RESEARCH & PROFILE</h2>
+                            <span class="cell-action-tooltip">Click network to burst!</span>
+                        </div>
+                        
+                        <div class="research-grid-content">
+                            <!-- Premium Profile Avatar Frame -->
+                            <div class="profile-avatar-wrapper">
+                                <img src="profile.jpg" alt="Muhammad Mudassar" class="profile-avatar-img">
+                                <div class="avatar-glow"></div>
+                            </div>
+                            
+                            <!-- Neural Network Visualizer Canvas -->
+                            <div class="neural-network-wrapper">
+                                <canvas id="neuralNetworkCanvas"></canvas>
+                                <div class="central-glow"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="research-metrics-bar">
+                        <div class="research-metric">
+                            <span class="metric-label">CGPA:</span>
+                            <span class="metric-value">3.8 / 4.0</span>
+                        </div>
+                        <div class="research-metric">
+                            <span class="metric-label">Div Rank:</span>
+                            <span class="metric-value highlight-teal">#2 Board</span>
+                        </div>
+                        <div class="research-metric">
+                            <span class="metric-label">Education:</span>
+                            <span class="metric-value">Riphah Univ. CS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. PROJECTS CELL (Top Right: Spans 3 cols) -->
+                <div class="bento-cell cell-projects grid-col-3 scroll-reveal">
+                    <h2 class="cell-title">SELECTED WORK</h2>
+                    
+                    <div class="projects-horizontal-scroll">
+                        <!-- Project Card 1: AI Medicine Supply Chain -->
+                        <div class="project-card-item" data-project-id="supply_chain">
+                            <div class="project-image-box">
+                                <img src="brain.jpg" alt="AI Medicine Supply Chain Thumbnail">
+                            </div>
+                            <div class="project-details">
+                                <h3 class="project-headline">AI MEDICINE CHAIN</h3>
+                                <p class="project-subhead">Secure Supply Platform</p>
+                            </div>
+                        </div>
+
+                        <!-- Project Card 2: E-Invoice -->
+                        <div class="project-card-item" data-project-id="e_invoice">
+                            <div class="project-image-box">
+                                <img src="dashboard.jpg" alt="E-Invoice Management Platform Thumbnail">
+                            </div>
+                            <div class="project-details">
+                                <h3 class="project-headline">E-INVOICE SYSTEM</h3>
+                                <p class="project-subhead">Finance Analytics Hub</p>
+                            </div>
+                        </div>
+
+                        <!-- Project Card 3: AI Video Automation -->
+                        <div class="project-card-item" data-project-id="video_automation">
+                            <div class="project-image-box">
+                                <img src="js_logo.jpg" alt="AI Video Automation Thumbnail">
+                            </div>
+                            <div class="project-details">
+                                <h3 class="project-headline">AI VIDEO FLOWS</h3>
+                                <p class="project-subhead">Veo & ElevenLabs Workflows</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. CODING METRICS CELL (Bottom Left: Spans 2 cols) -->
+                <div class="bento-cell cell-coding-metrics grid-col-2 scroll-reveal">
+                    <div class="cell-header-with-action">
+                        <h2 class="cell-title">DIAGNOSTIC METRICS</h2>
+                        <span class="github-badge"><i data-lucide="github"></i> GitHub</span>
+                    </div>
+
+                    <div class="metrics-inner-layout">
+                        <!-- Column Left: Contributions Grid -->
+                        <div class="metrics-col-left">
+                            <div class="metrics-sub-box">
+                                <div class="box-title-row">
+                                    <span class="sub-box-title">CONTRIBUTIONS</span>
+                                    <span id="matrixTooltip" class="matrix-hover-tooltip">Hover blocks</span>
+                                </div>
+                                <div class="contribution-display">
+                                    <span class="contribution-count">3.8 CGPA</span>
+                                    <div class="github-matrix" id="githubMatrix"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Column Right: Languages Chips -->
+                        <div class="metrics-col-right">
+                            <div class="metrics-sub-box">
+                                <span class="sub-box-title">CORE STACK (Filter Grid)</span>
+                                <div class="languages-list">
+                                    <div class="lang-chip ts" data-filter="cpp"><span class="lang-dot"></span> C++</div>
+                                    <div class="lang-chip python" data-filter="python"><span class="lang-dot"></span> Python</div>
+                                    <div class="lang-chip go" data-filter="js"><span class="lang-dot"></span> JS</div>
+                                    <div class="lang-chip js" data-filter="mongodb"><span class="lang-dot"></span> MongoDB</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bottom Row: Multi Sparklines -->
+                    <div class="sparklines-row">
+                        <div class="sparkline-item" data-spark-id="commits">
+                            <div class="sparkline-desc">
+                                <span class="sparkline-label">BOARD EXAM RANK</span>
+                                <span class="sparkline-sub" id="commitsVal">Rank #2 Division</span>
+                            </div>
+                            <canvas id="commitsSparkline" class="sparkline-canvas"></canvas>
+                        </div>
+
+                        <div class="sparkline-item" data-spark-id="pr">
+                            <div class="sparkline-desc">
+                                <span class="sparkline-label">VIDEO AUTOMATIONS</span>
+                                <span class="sparkline-value" id="prVal">45+ Runs</span>
+                            </div>
+                            <canvas id="prSparkline" class="sparkline-canvas"></canvas>
+                        </div>
+
+                        <div class="sparkline-item" data-spark-id="issues">
+                            <div class="sparkline-desc">
+                                <span class="sparkline-label">OPEN SOURCE PROJECTS</span>
+                                <span class="sparkline-value" id="issuesVal">6 Completed</span>
+                            </div>
+                            <canvas id="issuesSparkline" class="sparkline-canvas"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. TECHNOLOGIES CELL (Bottom Center-Left: Spans 1 col) -->
+                <div class="bento-cell cell-technologies grid-col-1 scroll-reveal">
+                    <div class="tech-cell-top">
+                        <h2 class="cell-title">TECHNOLOGIES</h2>
+                        
+                        <div class="tech-icons-grid">
+                            <div class="tech-icon-card" data-tech-id="react" title="React"><i data-lucide="atom" class="react-color"></i></div>
+                            <div class="tech-icon-card" data-tech-id="node" title="Node.js / Express.js"><i data-lucide="file-code" class="node-color"></i></div>
+                            <div class="tech-icon-card" data-tech-id="python" title="Python"><i data-lucide="binary" class="python-color"></i></div>
+                            <div class="tech-icon-card" data-tech-id="cpp" title="Advanced C++"><i data-lucide="terminal" class="go-color"></i></div>
+                            <div class="tech-icon-card" data-tech-id="mongodb" title="MongoDB Database"><i data-lucide="database" class="aws-color"></i></div>
+                            <div class="tech-icon-card" data-tech-id="gpt" title="Prompt Engineering"><i data-lucide="brain-circuit" class="gpt-color"></i></div>
+                            <div class="tech-icon-card" data-tech-id="git" title="Git & GitHub"><i data-lucide="git-branch" class="k8s-color"></i></div>
+                            <div class="tech-icon-card" data-tech-id="veo" title="Google Veo & ElevenLabs"><i data-lucide="video" class="docker-color"></i></div>
+                            <div class="tech-icon-card" data-tech-id="design" title="UI/UX & Graphic Design"><i data-lucide="palette" class="gql-color"></i></div>
+                        </div>
+                    </div>
+
+                    <!-- Dynamic Details Status Bar -->
+                    <div class="tech-detail-panel" id="techDetailPanel">
+                        <span class="tech-detail-title">SELECT A CORE TECH</span>
+                        <p class="tech-detail-desc">Hover over an icon to inspect architectural usage details.</p>
+                    </div>
+                </div>
+
+                <!-- 5. ACHIEVEMENTS & CERTIFICATES CELL (Bottom Center-Right: Spans 1 col) -->
+                <div class="bento-cell cell-experience grid-col-1 scroll-reveal" title="Click milestones to expand credentials!">
+                    <div class="cell-top">
+                        <h2 class="cell-title">ACHIEVEMENTS</h2>
+                        <span class="timeline-label-tag">Credentials (Tap Node)</span>
+                        
+                        <div class="timeline-list">
+                            <!-- Node 1 -->
+                            <div class="timeline-node" data-timeline-id="cisco_ai">
+                                <div class="timeline-node-dot"></div>
+                                <div class="timeline-node-info">
+                                    <h4 class="timeline-node-role">Modern AI Certification</h4>
+                                    <span class="timeline-node-company">CISCO accredited</span>
+                                    <!-- Collapsible Accordion content -->
+                                    <div class="timeline-node-details">
+                                        <p>Comprehensive ML paths covering neural networks architectures, supervised models models validation, and training heuristics.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Node 2 -->
+                            <div class="timeline-node" data-timeline-id="cpp_prog">
+                                <div class="timeline-node-dot"></div>
+                                <div class="timeline-node-info">
+                                    <h4 class="timeline-node-role">Advanced C++ & Python</h4>
+                                    <span class="timeline-node-company">Programming Certs</span>
+                                    <div class="timeline-node-details">
+                                        <p>Accredited scores in advanced object-oriented design, dynamic data structures optimization, and algorithmic complexity mapping.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Node 3 -->
+                            <div class="timeline-node" data-timeline-id="cisco_hci">
+                                <div class="timeline-node-dot"></div>
+                                <div class="timeline-node-info">
+                                    <h4 class="timeline-node-role">Human Computer Interaction</h4>
+                                    <span class="timeline-node-company">Cisco Networking Academy</span>
+                                    <div class="timeline-node-details">
+                                        <p>Specialized UI cognitive layouts studies, design accessibility systems architectures, and haptic loop feedback implementations.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. CONTACT CELL (Bottom Right: Spans 1 col) -->
+                <div class="bento-cell cell-contact grid-col-1 scroll-reveal">
+                    <h2 class="cell-title">CONNECT</h2>
+                    
+                    <div class="contact-box-content">
+                        <button class="email-capsule-btn" id="emailActionBtn">
+                            <i data-lucide="mail"></i>
+                            <span>email</span>
+                        </button>
+                        <span id="emailNotification" class="copy-success-tooltip">Copied to clipboard!</span>
+
+                        <div class="social-links-row">
+                            <a href="https://github.com/MudassarJatt" target="_blank" class="social-icon-btn" aria-label="GitHub Profile">
+                                <i data-lucide="github"></i>
+                            </a>
+                            <a href="https://x.com" target="_blank" class="social-icon-btn" aria-label="X Profile">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+                                </svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/muhammad-mudassar" target="_blank" class="social-icon-btn" aria-label="LinkedIn Profile">
+                                <i data-lucide="linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION 2: INTERACTIVE AI LABS & ARCHITECTURE PIPELINE -->
+        <section class="section-wrapper scroll-reveal" id="labs">
+            <div class="section-header">
+                <span class="section-num">01 // AUTOMATIONS & LABS</span>
+                <h2 class="section-headline">Inference & Automation Pipelines</h2>
+                <p class="section-subtext">Click on any pipeline button below to simulate workload execution flows and watch server compilation metrics update live.</p>
+            </div>
+
+            <div class="labs-bento-layout">
+                <!-- Left Card: Interactive Pipeline Architecture Diagram -->
+                <div class="labs-card labs-diagram">
+                    <h3 class="labs-card-title">PIPELINE VERIFICATION TRACK</h3>
+                    
+                    <div class="pipeline-visual">
+                        <!-- Node 1: Request -->
+                        <div class="pipeline-node-item active" id="nodeReq">
+                            <div class="node-icon"><i data-lucide="play-circle"></i></div>
+                            <span class="node-name">Initiator</span>
+                        </div>
+                        <!-- Line 1 -->
+                        <div class="pipeline-line-connector"><div class="flow-dot" id="dot1"></div></div>
+                        <!-- Node 2: Process API -->
+                        <div class="pipeline-node-item" id="nodeGateway">
+                            <div class="node-icon"><i data-lucide="cpu"></i></div>
+                            <span class="node-name">Parser Loop</span>
+                        </div>
+                        <!-- Line 2 -->
+                        <div class="pipeline-line-connector"><div class="flow-dot" id="dot2"></div></div>
+                        <!-- Node 3: AI Inference / Actions -->
+                        <div class="pipeline-node-item" id="nodeInference">
+                            <div class="node-icon"><i data-lucide="brain"></i></div>
+                            <span class="node-name">AI Processing</span>
+                        </div>
+                        <!-- Line 3 -->
+                        <div class="pipeline-line-connector"><div class="flow-dot" id="dot3"></div></div>
+                        <!-- Node 4: DB Logs / Outputs -->
+                        <div class="pipeline-node-item" id="nodeDB">
+                            <div class="node-icon"><i data-lucide="save"></i></div>
+                            <span class="node-name">Packet Storage</span>
+                        </div>
+                    </div>
+
+                    <!-- Workload Selectors -->
+                    <div class="workload-actions">
+                        <button class="btn-workload active" data-task="medicine">
+                            <i data-lucide="shield-alert"></i> Medicine Logistics
+                        </button>
+                        <button class="btn-workload" data-task="invoice">
+                            <i data-lucide="receipt"></i> Invoice gateway
+                        </button>
+                        <button class="btn-workload" data-task="video">
+                            <i data-lucide="clapperboard"></i> Video automation
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Right Card: Retro Log Console -->
+                <div class="labs-card labs-console">
+                    <div class="console-header">
+                        <span class="console-title">DYNAMIC PACKET CONSOLE</span>
+                        <div class="console-bullets">
+                            <span></span><span></span><span></span>
+                        </div>
+                    </div>
+                    <div class="console-body" id="consoleLogs">
+                        <div class="log-line text-muted">// System initialized. Ready to compile workloads...</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: PROJECT CASE STUDY DETAIL ACCORDION -->
+        <section class="section-wrapper scroll-reveal" id="deep-dive">
+            <div class="section-header">
+                <span class="section-num">02 // CASE STUDIES</span>
+                <h2 class="section-headline">Architectural Deep Dives</h2>
+                <p class="section-subtext">Deep-dives into problem solving, system design constraints, and measured deployment achievements.</p>
+            </div>
+
+            <div class="case-study-container">
+                <!-- Case Study Item 1: AI Medicine Supply Chain -->
+                <div class="case-study-card">
+                    <div class="case-study-main">
+                        <div class="case-study-info">
+                            <span class="case-category">AI MEDICINE SUPPLY CHAIN</span>
+                            <h3 class="case-title">Distributed Drug Verification Ecosystem</h3>
+                            <p class="case-summary">Architected a secure logistics platform that leverages deep prediction mechanisms to track pharmaceuticals distribution pipelines and check drug counterfeits.</p>
+                        </div>
+                        
+                        <!-- Interactive Tabs Controller -->
+                        <div class="case-study-tabs" data-case="neuroforge">
+                            <button class="tab-btn active" data-tab="architecture">System Design</button>
+                            <button class="tab-btn" data-tab="challenges">Challenges</button>
+                            <button class="tab-btn" data-tab="impact">Impact Results</button>
+                        </div>
+                    </div>
+
+                    <!-- Tabs Content View -->
+                    <div class="case-study-content" id="neuroforgeContent">
+                        <div class="tab-pane active" data-pane="architecture">
+                            <h4 class="pane-title">Decentralized Log Sync</h4>
+                            <p>Structured an event-driven framework using MongoDB documents database. Leveraged secure FastAPI gates to verify drug package batch hashes at every transit checkpoint, mapping logs in an immutable sequence.</p>
+                        </div>
+                        <div class="tab-pane" data-pane="challenges">
+                            <h4 class="pane-title">Real-time Batch Sync Latency</h4>
+                            <p>Bulk drug package scanning introduced bottlenecks during transit verify loops. Resolved by programming asynchronous processing queues in Python and optimizing index lookups on transaction logs collections.</p>
+                        </div>
+                        <div class="tab-pane" data-pane="impact">
+                            <h4 class="pane-title">Verified Achievements</h4>
+                            <div class="metrics-grid">
+                                <div class="metric-item">
+                                    <span class="m-val">100%</span>
+                                    <span class="m-lbl">Traceability Rate</span>
+                                </div>
+                                <div class="metric-item">
+                                    <span class="m-val">99.8%</span>
+                                    <span class="m-lbl">Counterfeit Detection</span>
+                                </div>
+                                <div class="metric-item">
+                                    <span class="m-val">-35%</span>
+                                    <span class="m-lbl">Scan Transit Time</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Study Item 2: Transport App for Visually Impaired -->
+                <div class="case-study-card">
+                    <div class="case-study-main">
+                        <div class="case-study-info">
+                            <span class="case-category">ACCESSIBLE TRANSIT</span>
+                            <h3 class="case-title">Visual Transit Assist Mobile Platform</h3>
+                            <p class="case-summary">Engineered an interactive accessibility transit helper app designed to assist visually impaired passengers with public bus routes, schedules, and bus numbers.</p>
+                        </div>
+                        
+                        <div class="case-study-tabs" data-case="aether">
+                            <button class="tab-btn active" data-tab="architecture">System Design</button>
+                            <button class="tab-btn" data-tab="challenges">Challenges</button>
+                            <button class="tab-btn" data-tab="impact">Impact Results</button>
+                        </div>
+                    </div>
+
+                    <div class="case-study-content" id="aetherContent">
+                        <div class="tab-pane active" data-pane="architecture">
+                            <h4 class="pane-title">Haptic & Voice Assist Engine</h4>
+                            <p>Structured on a lightweight native interface layer integrated with text-to-speech APIs and haptic feedback. Utilized real-time geolocation loops to trigger audio descriptions of approaching transit stops.</p>
+                        </div>
+                        <div class="tab-pane" data-pane="challenges">
+                            <h4 class="pane-title">Dynamic Geo-Fencing Lag</h4>
+                            <p>Standard GPS updates caused delayed alerts in high-speed buses. Fixed by developing a custom distance-weighted tracking loop that speeds up geolocation checking rates as the bus nears target stops.</p>
+                        </div>
+                        <div class="tab-pane" data-pane="impact">
+                            <div class="metrics-grid">
+                                <div class="metric-item">
+                                    <span class="m-val">96%</span>
+                                    <span class="m-lbl">Route-Assist Accuracy</span>
+                                </div>
+                                <div class="metric-item">
+                                    <span class="m-val">Sub-50ms</span>
+                                    <span class="m-lbl">Haptic Assist Latency</span>
+                                </div>
+                                <div class="metric-item">
+                                    <span class="m-val">+88%</span>
+                                    <span class="m-lbl">User Autonomy Rating</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: ASK MY AI AGENT CHAT -->
+        <section class="section-wrapper scroll-reveal" id="ai-agent">
+            <div class="section-header">
+                <span class="section-num">03 // SYNTHESIS AGENT</span>
+                <h2 class="section-headline">Consult with my AI Agent</h2>
+                <p class="section-subtext">Click on any sample question below or interact with my chat agent to inquire about my technical skills, methodologies, or work availability.</p>
+            </div>
+
+            <div class="chat-agent-layout">
+                <!-- Left panel: Agent Profile & Questions -->
+                <div class="agent-profile-panel">
+                    <div class="agent-badge">
+                        <div class="agent-avatar">AI</div>
+                        <div class="agent-status-info">
+                            <span class="agent-name">Synthesis.v1</span>
+                            <span class="agent-status-label"><span class="pulse-dot-green"></span> Online & Active</span>
+                        </div>
+                    </div>
+
+                    <!-- Preset Questions -->
+                    <div class="preset-questions-list">
+                        <button class="btn-preset-query">What is your academic background?</button>
+                        <button class="btn-preset-query">Tell me about your AI Medicine project.</button>
+                        <button class="btn-preset-query">Are you available for remote work or relocation?</button>
+                        <button class="btn-preset-query">What certificates do you hold?</button>
+                    </div>
+                </div>
+
+                <!-- Right panel: Chat Box -->
+                <div class="agent-chat-box">
+                    <div class="chat-feed" id="chatFeed">
+                        <div class="chat-bubble agent">
+                            <span class="bubble-sender">Synthesis AI</span>
+                            <p class="bubble-text">Hello! I am Muhammad Mudassar's digital assistant. Ask me about his projects, university records, or programming stack!</p>
+                        </div>
+                    </div>
+                    
+                    <div class="chat-input-row">
+                        <input type="text" id="chatInput" placeholder="Type a message or select a question..." autocomplete="off">
+                        <button id="sendChatBtn" aria-label="Send Message to Agent"><i data-lucide="send"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: CONTACT SUBMISSION -->
+        <section class="section-wrapper scroll-reveal" id="contact-panel">
+            <div class="section-header">
+                <span class="section-num">04 // GET IN TOUCH</span>
+                <h2 class="section-headline">Let's Work Together</h2>
+                <p class="section-subtext">Submit your details below to reach out for project proposals, hiring inquiries, or general questions.</p>
+            </div>
+
+            <div class="full-contact-wrapper">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <input type="text" id="formName" required placeholder=" ">
+                            <label for="formName">Full Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="formEmail" required placeholder=" ">
+                            <label for="formEmail">Email Address</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="formSubject" required placeholder=" ">
+                            <label for="formSubject">Subject</label>
+                        </div>
+                    </div>
+                    <div class="form-group msg-group">
+                        <textarea id="formMessage" required placeholder=" " rows="4"></textarea>
+                        <label for="formMessage">Your Project Proposal or Query</label>
+                    </div>
+                    <div class="form-submit-container">
+                        <button type="submit" class="btn btn-accent btn-lg" id="submitFormBtn">
+                            <i data-lucide="send" id="sendIcon"></i>
+                            <span id="submitBtnText">Transmit Message</span>
+                        </button>
+                        <span id="formFeedback" class="form-feedback-msg"></span>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Project Details Glass Modal Overlay -->
+    <div class="project-modal" id="projectModal">
+        <div class="modal-backdrop" id="modalBackdrop"></div>
+        <div class="modal-content">
+            <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close Project Modal">
+                <i data-lucide="x"></i>
+            </button>
+            <div class="modal-body">
+                <!-- Left column: Media & CTA Buttons -->
+                <div class="modal-body-left">
+                    <div class="modal-image-wrapper">
+                        <img id="modalImage" src="" alt="Project Visual Preview">
+                    </div>
+                    <div class="modal-links-row">
+                        <a href="https://github.com" target="_blank" id="modalGithubLink" class="modal-link-btn">
+                            <i data-lucide="github"></i> Codebase
+                        </a>
+                        <a href="#" id="modalLiveLink" class="modal-link-btn primary">
+                            <i data-lucide="external-link"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right column: Text Descriptions -->
+                <div class="modal-body-right">
+                    <span class="modal-category" id="modalCategory">Category</span>
+                    <h3 class="modal-title" id="modalTitle">Project Title</h3>
+                    <p class="modal-subhead" id="modalSubhead">Project Subhead</p>
+                    
+                    <div class="modal-divider"></div>
+                    
+                    <p class="modal-desc" id="modalDesc">Detailed description...</p>
+                    
+                    <h4 class="modal-section-title">ENGINEERING HIGHLIGHTS</h4>
+                    <ul class="modal-highlights-list" id="modalHighlights">
+                        <!-- Filled dynamically -->
+                    </ul>
+
+                    <h4 class="modal-section-title font-small">CORE STACK</h4>
+                    <div class="modal-tags" id="modalTags">
+                        <!-- Filled dynamically -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 mudassar.dev. Built with premium custom layout standards.</p>
+    </footer>
+
+    <!-- Script File -->
+    <script src="script.js"></script>
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
